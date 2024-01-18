@@ -20,10 +20,10 @@ Read the Rubric to find out about what options exist to earn more marks. Here is
 
 ### Simple option:
 
-(returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/?q=place_id:ChIJFfiCrdo4Qm0RqPwuOAVtaj8
+(returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/North+Bay,+ON/@46.3324605,-79.3805354,11z/data=!3m1!4b1!4m6!3m5!1s0x4d2854b13122e2ef:0x5037b28c7232700!8m2!3d46.3091152!4d-79.4608204!16zL20vMGpzaHQ?entry=ttu
 ### Efficient option
 
-(returns JSON) API PlaceID link https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJV2BQ4laeekgRFauLvdXbFXE&key=<INSERTKEY>
+(returns JSON) API PlaceID link https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ4Q7ViTsayUwRmoxxpGPEjUw&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
   which the JSON will have a CID that can be directly used as a URL like https://maps.google.com/?cid=4569584641105657000
 
