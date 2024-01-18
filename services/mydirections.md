@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJ7-IiMbFUKE0RACcjxyh7AwU&destination=place_id:ChIJ4Q7ViTsayUwRmoxxpGPEjUw&avoid=tolls|highways|ferries&destination=Mount+Royal+Park&mode=Driving&origin=North+Bay&waypoints=optimize:true|via:Ottawa&waypoint_order=[3,1,2]&unit=metric&region=cn&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
