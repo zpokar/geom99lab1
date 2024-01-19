@@ -25,7 +25,7 @@ Read the Rubric to find out about what options exist to earn more marks. Here is
 
 (returns JSON) API PlaceID link https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ4Q7ViTsayUwRmoxxpGPEjUw&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 
-  which the JSON will have a CID that can be directly used as a URL like https://maps.google.com/?cid=4569584641105657000
+  which the JSON will have a CID that can be directly used as a URL like https://maps.google.com/?cid=ChIJWQJ6RsuqKU0Rxbo9DrETe4c
 
 
 ____
