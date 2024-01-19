@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJ7-IiMbFUKE0RACcjxyh7AwU&destination=place_id:ChIJ4Q7ViTsayUwRmoxxpGPEjUw&avoid=tolls|highways|ferries&destination=Mount+Royal+Park&mode=Driving&origin=North+Bay&waypoints=optimize:true|via:Ottawa&waypoint_order=[3,1,2]&unit=metric&region=cn&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=Laurentian+Ski+Hill&destination=Montmorency+Falls&avoid=tolls|highways|ferries&destination=Montmorency+Falls&mode=Driving&origin=Laurentian+Ski+Hill&waypoints=optimize:true|via:Rideau+Canal|via:Place+des+Festivals&waypoint_order=[0,1,3,2]&unit=imperial&region=cn&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
