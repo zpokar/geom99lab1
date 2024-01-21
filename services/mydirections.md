@@ -20,7 +20,7 @@ Read the Rubric to find out about what options exist to earn more marks. Here is
 
 ### Simple option:
 
-(returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/North+Bay,+ON/@46.3324605,-79.3805354,11z/data=!3m1!4b1!4m6!3m5!1s0x4d2854b13122e2ef:0x5037b28c7232700!8m2!3d46.3091152!4d-79.4608204!16zL20vMGpzaHQ?entry=ttu
+(returns map-preferred) Maps PlaceID search:https://www.google.com/maps/place/Laurentian+Ski+Hill/@46.3377578,-79.4322181,17z/data=!3m1!4b1!4m6!3m5!1s0x4d29aacb467a0259:0x877b13b10e3dbac5!8m2!3d46.3377578!4d-79.4322181!16s%2Fg%2F1hg4xkryn?entry=ttu
 ### Efficient option
 
 (returns JSON) API PlaceID link https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ4Q7ViTsayUwRmoxxpGPEjUw&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
