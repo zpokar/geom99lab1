@@ -13,11 +13,11 @@ function initMap() {
     };
     // location cordinates(i used image logo which i download from:https://icons8.com/icons/set/facebook)
     const locations = [
-      { lat: 13.7000, lng: 72.1833, title: "Lakshadweep, India", flag: "image/icons8-india-48.png" },
-      { lat: 44.46169, lng: -63.61826, title: "Crystal Crescent Beach, Halifax, Canada", flag: "image/icons8-canada-48.png" },
-      { lat: 30.176592, lng: -85.805489, title: "Panama Beach, Florida, USA", flag: "image/icons8-united-states-minor-outlying-islands-48.png" },
-      { lat: -30.5595, lng: 22.9375, title: "South Africa", flag: "image/icons8-south-africa-48.png" },
-      { lat: -50.471054, lng: -73.057396, title: "Los Glaciares National Park, Argentina", flag: "image/icons8-argentina-48.png" },
+      { lat: 13.7000, lng: 72.1833, title: "Lakshadweep, India", flag: "icons8-india-48.png" },
+      { lat: 44.46169, lng: -63.61826, title: "Crystal Crescent Beach, Halifax, Canada", flag: "icons8-canada-48.png" },
+      { lat: 30.176592, lng: -85.805489, title: "Panama Beach, Florida, USA", flag: "icons8-united-states-minor-outlying-islands-48.png" },
+      { lat: -30.5595, lng: 22.9375, title: "South Africa", flag: "icons8-south-africa-48.png" },
+      { lat: -50.471054, lng: -73.057396, title: "Los Glaciares National Park, Argentina", flag: "icons8-argentina-48.png" },
    ];
     // polyline direction
     const coonectline = new google.maps.Polyline({
