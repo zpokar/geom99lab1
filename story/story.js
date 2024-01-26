@@ -2,7 +2,7 @@ function initMap() {
   //google map connect and i set the center point and the zoom level 
     const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 20.291, lng: 20.291 },
-      zoom: 4,
+      zoom: 3,
       mapTypeId: "terrain",
     });
     //cricle symbology code and we dmentoned scale as well
