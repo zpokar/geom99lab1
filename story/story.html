@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment-1</title>
+    <script src="story.js"></script>
+    <!-- Inline css sheet -->
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+        #map {
+          height: 60vh;
+        }
+        .heading{
+          margin-top: 30px;
+        }
+        .heading h1{
+          text-align: center;
+        }
+        .story {
+          margin-top: 5px;
+          padding: 20px;
+          background-color: #f7f3f3;
+        }
+        .story h2{
+          text-align: center;
+        }
+        body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Heading section -->
+    <div class="heading">
+      <h1>My Advanture Trip</h1>
+    </div>
+    <!-- Map section -->
+    <div id="map"></div>
+    <!-- My story section -->
+    <div class="story">
+      <h2>My Adventure Trip</h2>
+      <p>I start my journey🛫 with the immaculate beaches of Lakshadweep, surrounded by a plethora of colourful marine life and blue waters🌊, to begin my experience. Halifax's golden sands of Crystal Crescent Beach greeted me, as the soft waves whispered stories of the Atlantic.</p>
+      <p>Next, my journey led me to the sun-kissed Panama Beach in Florida🚣‍♂️, USA. Amidst the palm trees and coastal breeze, I embraced the laid-back charm of this coastal haven, savoring the essence of the Gulf of Mexico.Travelling farther, South Africa revealed its varied topography. Every moment created a vivid canvas of sensations, from the wild beauty of the Garden Route to the colourful cityscape of Cape Town. My soul will never be the same after seeing the wildlife🐘 in Kruger National Park.</p>
+      <P>End my trip in the coolesst Place🥶, the grand finale awaited at Los Glaciares National Park in Argentina. Towering ice formations and mirror-like lakes surrounded me, creating a surreal scene in the heart of Patagonia. Each glacier told a story of time frozen, a fitting end to a journey etched in the tapestry of my memories.</P>
+      <!-- Map src and API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap&v=weekly" async>
+    </script>
+  </body>
+</html>
